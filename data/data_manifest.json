@@ -1,0 +1,46 @@
+{
+    "quirks.json": {
+      "purpose": "Stores all fun quantum facts ('quirks') displayed on the homepage and quirks archive.",
+      "notes": "Each entry contains a text field and a category for filtering. Used for 'Quirk of the Day' and the quirks page."
+    },
+    "tutors.json": {
+      "purpose": "Contains profiles for all AI tutor bots featured on the About page or in future interactive features.",
+      "notes": "Each profile can include name, role, personality, catchphrases, and favourite topics."
+    },
+    "lessons.json": {
+      "purpose": "Holds all lesson data for different topics in the platform.",
+      "notes": "Each lesson includes title, topic, level, content body, related quirks, and quizzes. Modular for easy lesson loading."
+    },
+    "quizzes.json": {
+      "purpose": "Stores quiz questions, options, correct answers, and difficulty levels.",
+      "notes": "Linked to lessons or used independently in the quiz section. Easy to expand with new questions."
+    },
+    "particles/traits.json": {
+      "purpose": "Defines selectable particle traits for the 'Build Your Own Particle' feature.",
+      "notes": "Includes possible values for mass, charge, spin, interaction types, colour charge, etc."
+    },
+    "particles/feedback.json": {
+      "purpose": "Provides dynamic tutor bot reactions and feedback messages based on the particle built by users.",
+      "notes": "Used to make the particle creation feature funny, educational, and interactive."
+    },
+    "resources.json": {
+      "purpose": "Holds recommended learning materials like videos, books, articles, and external links.",
+      "notes": "Used in a future 'Resources' or 'Explore More' page to provide deeper study opportunities."
+    },
+    "quotes.json": {
+      "purpose": "Contains a collection of random quotes from Tutor Bots, physics legends, or pure nonsense.",
+      "notes": "Displayed optionally on homepage or loading screens to add humour or inspiration."
+    },
+    "glossary.json": {
+      "purpose": "Defines physics terms used throughout the platform.",
+      "notes": "Can be used for on-hover tooltips or a full glossary page. Improves accessibility and clarity for learners."
+    },
+    "achievements.json": {
+      "purpose": "Defines possible user achievements, unlockables, and gamified progress goals.",
+      "notes": "Used for future user profiles, dashboards, and engagement systems with optional reward badges."
+    },
+    "data_manifest.json": {
+      "purpose": "This file itself — a master reference for all JSON files in the data directory.",
+      "notes": "Helps maintain structure, clarity, and sanity as the project grows. YOU'RE WELCOME, FUTURE LIAM."
+    }
+}  
