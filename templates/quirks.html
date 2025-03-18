@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section class="py-10">
+    <h2 class="text-3xl font-bold text-indigo-700 mb-6 text-center">💥 Quirks Archive 💥</h2>
+
+    <!-- CATEGORY FILTER DROPDOWN -->
+    <form method="get" action="/quirks" class="text-center mb-8">
+        <label for="category" class="mr-2 font-semibold text-gray-700">Filter by category:</label>
+        <select name="category" id="category" onchange="this.form.submit()" class="px-4 py-2 border rounded-lg text-sm">
+            <option value="All" {% if not selected_category or selected_category == 'All' %}selected{% endif %}>All</option>
+            {% for cat in categories %}
+                <option value="{{ cat }}" {% if selected_category == cat %}selected{% endif %}>{{ cat }}</option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <!-- QUIRKS LIST -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for quirk in quirks %}
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+                <p class="text-gray-800 text-lg">{{ quirk.text }}</p>
+                <p class="mt-2 text-sm text-indigo-500 italic">Category: {{ quirk.category }}</p>
+
+                <!-- Expandable section for future lessons -->
+                <div class="mt-4">
+                    <details class="text-sm">
+                        <summary class="cursor-pointer text-indigo-600 font-medium">Learn more</summary>
+                        <p class="mt-2 text-gray-600">✨ [Placeholder for lesson expansion – coming soon!] ✨</p>
+                    </details>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% endblock %}
