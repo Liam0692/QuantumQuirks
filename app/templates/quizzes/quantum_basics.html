@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section class="py-16 text-center">
+    <h2 class="text-4xl font-extrabold text-indigo-700 mb-4">🎯 Quantum Basics Quiz</h2>
+    <p class="text-lg text-gray-700 max-w-2xl mx-auto">Test your quantum knowledge and see if you’re a wavefunction warrior or a classical potato. 🥔⚛️</p>
+</section>
+
+<section id="quiz-container" class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-md text-left">
+    <div id="question-box">
+        <!-- JavaScript will inject the question and options here -->
+    </div>
+
+    <div class="mt-6 text-center">
+        <button id="next-btn" class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition hidden">
+            Next Question →
+        </button>
+    </div>
+</section>
+
+<section id="quiz-results" class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-md mt-12 text-center hidden">
+    <h3 class="text-2xl font-bold text-indigo-700 mb-4">✨ Quiz Complete! ✨</h3>
+    <p id="final-score" class="text-lg text-gray-700 mb-4"></p>
+    <!-- Future: List incorrect answers & show resources -->
+</section>
+
+<script src="/static/js/quiz.js"></script>
+
+{% endblock %}

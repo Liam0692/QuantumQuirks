@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section class="text-center py-16">
+  <h2 class="text-4xl font-extrabold text-indigo-700 mb-4">🔮 What Particle Are You?</h2>
+  <p class="text-lg text-gray-700 max-w-2xl mx-auto">Discover your inner subatomic sassball with this quantum personality quiz. ⚛️✨</p>
+</section>
+
+<section id="quiz-container" class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
+  <div id="question-box">
+    <!-- JS will inject questions here -->
+  </div>
+</section>
+
+<section id="quiz-result" class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-md mt-12 text-center hidden">
+  <h3 class="text-2xl font-bold text-indigo-700 mb-4">✨ You're a <span id="result-name"></span> ✨</h3>
+  <p id="result-description" class="text-lg text-gray-700 mb-4"></p>
+  <blockquote class="italic text-indigo-600" id="result-quote"></blockquote>
+  <button onclick="location.reload()" class="mt-6 px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition">Take It Again 🔄</button>
+</section>
+
+<script src="/static/js/what_particle_are_you.js"></script>
+
+{% endblock %}

@@ -1,0 +1,107 @@
+{
+    "title": "What Particle Are You?",
+    "description": "Are you a fast-moving photon, an introverted neutrino, or a drama-filled Higgs boson? Take this test and uncover your subatomic alter ego! ⚛️✨",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What's your ideal Saturday night?",
+            "options": [
+                { "text": "Clubbing and dancing until dawn", "votes": ["photon"] },
+                { "text": "Reading alone in peace", "votes": ["electron", "neutrino"] },
+                { "text": "Sleeping early with no notifications", "votes": ["neutrino"] },
+                { "text": "Stargazing and existential spirals", "votes": ["higgs", "graviton"] }
+
+            ]
+        },
+        {
+            "id": 2,
+            "question": "How do you handle conflict?",
+            "options": [
+                { "text": "Just run away at light speed", "votes": ["photon"] },
+                { "text": "Stay quiet and avoid confrontation", "votes": ["neutrino"] },
+                { "text": "Try to meditate and keep everyone together", "votes": ["gluon"] },
+                { "text": "Stand my ground and exert my force", "votes": ["proton, higgs"] }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Pick a superpower:",
+            "options": [
+                { "text": "Teleportation", "votes": ["neutrino", "graviton"] },
+                { "text": "Being the center of attention", "votes": ["photon", "higgs"] },
+                { "text": "Attraction and strong bonds", "votes": ["gluon", "proton"] },
+                { "text": "The ability to disappear at will", "votes": ["neutrino", "electron"] }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "What's your vibe in group projects?",
+            "options": [
+                { "text": "I literally hold the group together", "votes": ["gluon"] },
+                { "text": "I do my own thing and barely interact", "votes": ["neutrino", "electron"] },
+                { "text": "I bring energy and excitement!", "votes": ["photon"] },
+                { "text": "I oversee everything but don't get involved", "votes": ["higgs", "graviton"] }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "What's your biggest personality flaw?",
+            "options": [
+                { "text": "I can't sit still", "votes": ["photon", "electron"] },
+                { "text": "I hate social interactions", "votes": ["neutrino"] },
+                { "text": "I have control issues", "votes": ["higgs", "proton"] },
+                { "text": "I get attached too easily", "votes": ["gluon"] }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Your friends would describe you as...",
+            "options": [
+                { "text": "The life of the party", "votes": ["photon"] },
+                { "text": "A quiet mystery", "votes": ["neutrino", "electron", "graviton"] },
+                { "text": "Reliable and strong", "votes": ["proton", "gluon"] },
+                { "text": "Dramatic but important", "votes": ["higgs"] }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Pick a catchphrase:",
+            "options": [
+                { "text": "Gotta go fast!", "votes": ["photon"] },
+                { "text": "I'm just passing through...", "votes": ["neutrino"] },
+                { "text": "I attract everyone around me", "votes": ["proton", "gluon", "graviton"] },
+                { "text": "I give everything purpose", "votes": ["higgs", "electron"] }
+            ]
+        }
+    ],
+    "results": {
+        "photon": {
+            "description": "You're a ✨ PHOTON ✨ — fast, fabulous, and literally unstoppable.",
+            "quote": "You light up every room you enter. Mostly because you ARE the light."
+        },
+        "electron": {
+            "description": "You're an 🌀 ELECTRON — introverted, energetic, and occasionally chaotic.",
+            "quote": "You orbit everything… but never stay still."
+        },
+        "neutrino": {
+            "description": "You're a 👻 NEUTRINO — mysterious, barely interactive, but constantly moving.",
+            "quote": "People barely notice you, but you're always around."
+        },
+        "gluon": {
+            "description": "You're a 🔗 GLUON — the clingy friend, holding everyone together whether they like it or not.",
+            "quote": "Without you, everything falls apart."
+        },
+        "proton": {
+            "description": "You're a 💪 PROTON — strong, stable, and a natural leader.",
+            "quote": "You basically define the universe. No big deal."
+        },
+        "higgs": {
+            "description": "You're a 🌟 HIGGS BOSON — glamorous, rare, and fundamentally important.",
+            "quote": "You give meaning (and mass) to everything around you."
+        },
+        "graviton": {
+            "description": "You're a 🌌 GRAVITON — powerful but theoretical, a true enigma.",
+            "quote": "Are you real? Scientists are still debating that."
+        }
+    }
+}

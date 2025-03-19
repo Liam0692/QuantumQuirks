@@ -1,0 +1,132 @@
+{
+    "title": "Quantum Basics Quiz",
+    "description": "Test your knowledge of fundamental quantum concepts — wavefunctions, superposition, and a healthy dose of chaos. 💥",
+    "difficulty": "Beginner",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is wave-particle duality?",
+        "options": [
+          "Particles behave like waves sometimes, and waves behave like particles.",
+          "A particle is a wave if you observe it sideways.",
+          "Wave-particle duality means particles move in circles.",
+          "It means particles are made of water."
+        ],
+        "correct_answer": 0,
+        "resource": "https://quantumquirks.com/learn/wave-particle-duality"
+      },
+      {
+        "id": 2,
+        "question": "What does Heisenberg's Uncertainty Principle state?",
+        "options": [
+          "You can never know your cat’s true intentions.",
+          "You can't simultaneously know the exact position and momentum of a particle.",
+          "Uncertainty means science is guessing.",
+          "Particles disappear if you look too closely."
+        ],
+        "correct_answer": 1,
+        "resource": "https://quantumquirks.com/learn/heisenberg-uncertainty"
+      },
+      {
+        "id": 3,
+        "question": "What is superposition?",
+        "options": [
+          "A particle can be in multiple states at once until measured.",
+          "Particles are good at yoga.",
+          "Superposition is just a fancy word for teleportation.",
+          "It means the particle has superpowers."
+        ],
+        "correct_answer": 0,
+        "resource": "https://quantumquirks.com/learn/superposition"
+      },
+      {
+        "id": 4,
+        "question": "What is a qubit?",
+        "options": [
+          "A tiny quantum snack.",
+          "A classical bit's chaotic cousin that can be 0, 1, or both.",
+          "A quantum cow.",
+          "Just a regular bit with a new haircut."
+        ],
+        "correct_answer": 1,
+        "resource": "https://quantumquirks.com/learn/qubit"
+      },
+      {
+        "id": 5,
+        "question": "What causes wavefunction collapse?",
+        "options": [
+          "When the wavefunction gets tired.",
+          "A measurement or observation being made.",
+          "Too many quizzes.",
+          "Particles get stage fright."
+        ],
+        "correct_answer": 1,
+        "resource": "https://quantumquirks.com/learn/wavefunction-collapse"
+      },
+      {
+        "id": 6,
+        "question": "What does Planck’s constant represent?",
+        "options": [
+          "The size of Schrödinger’s cat.",
+          "The smallest possible quantum of energy.",
+          "The rate at which particles spin.",
+          "The length of a quantum ruler."
+        ],
+        "correct_answer": 1,
+        "resource": "https://quantumquirks.com/learn/plancks-constant"
+      },
+      {
+        "id": 7,
+        "question": "What is quantum tunnelling?",
+        "options": [
+          "When particles dig tiny wormholes.",
+          "Particles spontaneously teleport through barriers they shouldn't pass.",
+          "When your code gets stuck in a loop.",
+          "A form of quantum gardening."
+        ],
+        "correct_answer": 1,
+        "resource": "https://quantumquirks.com/learn/quantum-tunnelling"
+      },
+      {
+        "id": 8,
+        "question": "What is entanglement?",
+        "options": [
+          "Two particles sharing a telepathic vibe across the cosmos.",
+          "Particles getting their wires crossed.",
+          "A relationship status on Facebook.",
+          "Quantum knots in spacetime."
+        ],
+        "correct_answer": 0,
+        "resource": "https://quantumquirks.com/learn/entanglement"
+      },
+      {
+        "id": 9,
+        "question": "Which force is responsible for holding electrons in atoms?",
+        "options": [
+          "The strong force.",
+          "The weak force.",
+          "The electromagnetic force.",
+          "The force of friendship."
+        ],
+        "correct_answer": 2,
+        "resource": "https://quantumquirks.com/learn/electromagnetic-force"
+      },
+      {
+        "id": 10,
+        "question": "What is a photon?",
+        "options": [
+          "A quantum of light.",
+          "A small fish.",
+          "A high-energy sneeze.",
+          "A particle that glows in the dark."
+        ],
+        "correct_answer": 0,
+        "resource": "https://quantumquirks.com/learn/photon"
+      }
+    ],
+    "future_features": [
+      "At the end of the quiz, users will be shown resources for any questions they got wrong.",
+      "Users will be able to bookmark tricky topics for revision.",
+      "Tutor Bots will provide commentary on performance (e.g., EntangleBot snarky feedback)."
+    ]
+}  
